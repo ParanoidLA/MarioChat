@@ -20,11 +20,18 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+        "backgroundColor": "#ffffff",
+        "usesCleartextTraffic": true
+      },
+      "package": "com.lakshyagrawal.MarioChat"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "9647b035-bf58-4a3e-b7be-a2cb27c9b71d"
+      }
     }
   }
 }
